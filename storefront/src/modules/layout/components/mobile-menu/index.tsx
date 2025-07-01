@@ -111,7 +111,7 @@ export default function MobileMenu({ regions }: MobileMenuProps) {
                     {t.nav.franchise}
                   </LocalizedClientLink>
 
-                  {process.env.NEXT_PUBLIC_FEATURE_SEARCH_ENABLED && (
+                  {/* {process.env.NEXT_PUBLIC_FEATURE_SEARCH_ENABLED && (
                     <LocalizedClientLink
                       className={`block py-3 px-4 text-lg font-medium text-gray-900 hover:text-[#48a701] hover:bg-gray-50 rounded-lg transition-colors ${
                         isRTL ? 'text-right' : 'text-left'
@@ -121,7 +121,7 @@ export default function MobileMenu({ regions }: MobileMenuProps) {
                     >
                       {t.nav.search}
                     </LocalizedClientLink>
-                  )}
+                  )} */}
                   
                   <LocalizedClientLink
                     className={`block py-3 px-4 text-lg font-medium text-gray-900 hover:text-[#48a701] hover:bg-gray-50 rounded-lg transition-colors ${

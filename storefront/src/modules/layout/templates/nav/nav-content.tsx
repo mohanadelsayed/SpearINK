@@ -43,7 +43,7 @@ export default function NavContent() {
         {t.nav.franchise}
       </LocalizedClientLink>
 
-      {process.env.NEXT_PUBLIC_FEATURE_SEARCH_ENABLED && (
+      {/* {process.env.NEXT_PUBLIC_FEATURE_SEARCH_ENABLED && (
         <LocalizedClientLink
           className="text-gray-700 hover:text-[#48a701] transition-colors font-medium"
           href="/search"
@@ -52,7 +52,7 @@ export default function NavContent() {
         >
           {t.nav.search}
         </LocalizedClientLink>
-      )}
+      )} */}
       
       <LocalizedClientLink
         className="text-gray-700 hover:text-[#48a701] transition-colors font-medium"

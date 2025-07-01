@@ -321,7 +321,7 @@ export const translations: Record<Language, Translations> = {
       sustainablePrinting: "حلول الطباعة",
       solutions: "المستدامة",
       sustainableDescription: "قلل من تأثيرك البيئي مع خراطيشنا المعبأة عالية الجودة، تكلفة أقل بـ 50%، بصمة كربونية أقل بـ 80%.",
-      shopCartridges: "تسوق الخراطيش",
+      shopCartridges: "تسوق المنتجات",
       startRecycling: "ابدأ إعادة التدوير",
       costSavings: "توفير التكلفة",
       lessCO2: "أقل من ثاني أكسيد الكربون",
