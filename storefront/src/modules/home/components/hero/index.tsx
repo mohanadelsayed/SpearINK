@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-8">
-            <LocalizedClientLink href="/products">
+            <LocalizedClientLink href="/store">
               <Button 
                 size="large" 
                 className="bg-white text-[#48a701] hover:bg-white/90 font-semibold px-8 py-4 rounded-lg transition-all duration-300 hover:scale-105"
